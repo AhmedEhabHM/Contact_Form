@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Monomakh&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="div" id="main_div">
+        <h1>Contact Us</h1>
+        <form method="post" class="form" id="main_form">
+            <div class="div" id="div_1">
+                <label for="first_name">First name</label><br>
+                <input name="first_name" id="first_name" placeholder="Enter your first name" required type="text">
+            </div>
+            <div class="div" id="div_2">
+                <label for="last_name">Last name</label><br>
+                <input name="last_name" id="last_name" placeholder="Enter your last name" required type="text">
+            </div>
+            <div class="div" id="div_3">
+                <label for="email">Email</label><br>
+                <input name="email" id="email" placeholder="exaple@exaple.com" required type="email">
+            </div>
+            <div class="div" id="div_4">
+                <h2>Query Type</h2>
+                <input value="General Enquiry" id="general_enquiry" required name="query_type" type="radio">
+                <label class="no" for="general_enquiry">General Enquiry</label>
+                <input value="Support Request" id="support_Request" required name="query_type" type="radio">
+                <label class="no" for="support_Request">Support Request</label>
+
+            </div>
+            <div class="div" id="div_5">
+                <label for="message">Message</label><br>
+                <textarea placeholder="your message" required name="message" id="message"></textarea>
+            </div>
+            <div class="div" id="div_6">
+                <input name="consent" id="consent" required type="checkbox">
+                <label for="consent">I consent to being contacted by the team</label>
+            </div>
+            <div class="div" id="div_7">
+                <button type="submit">submit</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>

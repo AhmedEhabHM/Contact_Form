@@ -1,0 +1,73 @@
+
+label::after {
+    content: "*";
+    color: red;
+}
+
+label.no::after {
+    content: none;
+}
+
+body {
+    background-color: #e0f1e7;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+    font-size: 11px;
+}
+
+h1 {
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    color: #0c7d69;
+}
+
+h2 {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 12px;
+}
+
+#main_div {
+    background-color: white;
+    width: 450px;
+    height: 440px;
+    margin-left: 450px;
+    margin-top: 50px;
+    
+}
+
+form {
+    margin-left: 20px;
+}
+
+#div_1 input,
+#div_2 input,
+#div_3 input {
+    height: 20px;
+    width: 400px;
+}
+
+#div_5 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 400px;
+    height: 100px;
+}
+
+#div_7 button {
+    background-color: #0c7d69;
+    height: 40px;
+    width: 400px;
+    margin-top: 10px;
+    color: white;
+
+}
