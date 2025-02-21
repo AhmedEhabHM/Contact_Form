@@ -11,9 +11,8 @@ great starting point for my journey in web development! 🚀
 - User-friendly placeholder text.
 - Checkbox for user consent before submitting the form.
 
-🏢 **Technologies Used**
-- HTML5
-- CSS3
+ 🖼 **Preview**  
+https://ahmedehabhm.github.io/Contact_Form/
 
 📩 **Contact**
 If you have any suggestions or feedback, feel free to open an issue or contact me.
